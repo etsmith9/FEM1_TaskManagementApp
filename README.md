@@ -1,54 +1,33 @@
-# React + TypeScript + Vite
+Task Management App with TypeScript
+In this TypeScript Task Management Application project, you'll embark on a journey to develop a robust task management tool using TypeScript and React. This project will enhance your understanding of TypeScript fundamentals while introducing you to the practical application of TypeScript in building real-world web applications.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Click Here To View On Google Classroom
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To successfully create the Task Management Application with TypeScript, you'll need to meet the following project requirements:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Task Management Features:
+Task Dashboard Page:
+Implement a dashboard interface for managing tasks, including features like task lists, creation, editing, and deletion.
+Task Details Display:
+Design a detailed view for individual tasks, displaying task information and allowing users to modify task details.
+Task Creation and Editing Pages:
+Develop forms for creating and editing tasks, incorporating TypeScript types for data validation and error handling.
+Authentication and Authorization Pages:
+Implement user authentication with Auth0 and authorization pages, including registration and login.
+TypeScript Integration:
+Utilize TypeScript to enforce type safety and enhance code readability and maintainability throughout the project.
+Define TypeScript Interfaces or Type Aliases for data shapes and enforce type checking in React components and utility functions.
+State Management with Typed Hooks:
+Utilize React's useState hooks with TypeScript to manage application state effectively.
+Context API for Global State Management:
+Implement the Context API in React with TypeScript for managing global application state and sharing data between components.
+Authentication and Authorization with Auth0:
+Integrate Auth0 authentication services into the application for secure user authentication and authorization.
+Configure TypeScript types for Auth0 user data.
+Error Handling and Validation:
+Implement error handling and form validation using TypeScript types and React components to provide a seamless user experience.
+GitHub Repository:
+Create a GitHub repository for the project and commit code regularly.
+Maintain a detailed README.md file in the repository, providing clear instructions on project setup, installation, and usage.
+Include documentation on project features, architecture, and implementation details.
